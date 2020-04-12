@@ -168,7 +168,8 @@ template{
   -webkit-box-pack:center;
   justify-content:center;
   -webkit-box-align:center;
-  align-items:center; }
+  align-items:center;
+  cursor:pointer; }
 @media screen and (min-width: 600px){
     .btn{
       height:45px;
