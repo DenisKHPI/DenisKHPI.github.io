@@ -150,7 +150,13 @@ template{
   border:2px solid #ffffff;
   font-size:14px;
   color:#fff;
-  letter-spacing:2.52px; }
+  letter-spacing:2.52px;
+  display:-webkit-box;
+  display:flex;
+  -webkit-box-pack:center;
+  justify-content:center;
+  -webkit-box-align:center;
+  align-items:center; }
 @media screen and (min-width: 800px){
     .btn{
       font-size:18px;
@@ -162,7 +168,18 @@ template{
   border:2px solid #000;
   font-size:14px;
   color:#000;
-  letter-spacing:2.52px; }
+  letter-spacing:2.52px;
+  display:-webkit-box;
+  display:flex;
+  -webkit-box-pack:center;
+  justify-content:center;
+  -webkit-box-align:center;
+  align-items:center; }
+.btn__b:hover{
+    -webkit-transition:600ms;
+    transition:600ms;
+    color:#fff;
+    background:#000; }
 @media screen and (min-width: 800px){
     .btn__b{
       font-size:18px;
@@ -345,7 +362,8 @@ select{
 .about__img{
   display:none; }
 .about__img img{
-    width:100% !important; }
+    width:100% !important;
+    box-shadow:14px 15px 46px 1px rgba(0, 0, 0, 0.18); }
 @media screen and (min-width: 650px){
     .about__img{
       width:41.3%;
@@ -411,7 +429,16 @@ select{
   width:175px;
   height:40px;
   background:#dddcdc;
-  font-size:14px; }
+  font-size:14px;
+  display:-webkit-box;
+  display:flex;
+  -webkit-box-align:center;
+  align-items:center;
+  -webkit-box-pack:center;
+  justify-content:center;
+  color:#000; }
+.blog__btn:hover{
+    opacity:0.3; }
 @media screen and (min-width: 1240px){
     .blog__btn{
       width:221px;
@@ -432,7 +459,8 @@ select{
     .filipin__img{
       display:grid; } }
 .filipin__img img{
-    width:100%; }
+    width:100%;
+    box-shadow:14px 15px 46px 1px rgba(0, 0, 0, 0.18); }
 .filipin__main{
   width:100%; }
 @media screen and (min-width: 650px){
@@ -451,6 +479,8 @@ select{
 footer a{
   color:#000;
   text-transform:uppercase; }
+footer a:hover{
+    opacity:0.4; }
 footer .container{
   padding:89px 0 100px 0; }
 footer ul{
@@ -521,6 +551,8 @@ nav ul a{
 @media screen and (min-width: 1600px){
     .header{
       padding:0 0 398px 0; } }
+.header a:hover{
+    opacity:0.4; }
 .header__main{
   display:-webkit-box;
   display:flex;
